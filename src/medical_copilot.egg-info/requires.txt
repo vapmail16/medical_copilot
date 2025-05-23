@@ -1,0 +1,13 @@
+openai
+langchain
+langgraph
+neo4j
+python-dotenv
+streamlit
+requests
+openai-whisper
+deepgram-sdk
+Pillow
+fastapi
+uvicorn
+python-multipart

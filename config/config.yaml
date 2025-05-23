@@ -1,0 +1,39 @@
+# API Keys and Credentials
+api_keys:
+  openai: ${OPENAI_API_KEY}
+  perplexity: ${PERPLEXITY_API_KEY}
+  deepgram: ${DEEPGRAM_API_KEY}
+
+# Database Configuration
+neo4j:
+  uri: ${NEO4J_URI}
+  user: ${NEO4J_USER}
+  password: ${NEO4J_PASSWORD}
+
+# Model Settings
+models:
+  # Speech-to-text options (choose one)
+  speech:
+    provider: "whisper"  # Options: "whisper" or "deepgram"
+    whisper:
+      model_name: "base"
+    deepgram:
+      model: "nova"
+  
+  # Vision and Chat models
+  openai:
+    vision_model: "gpt-4-vision-preview"
+    chat_model: "gpt-4"
+
+# Application Settings
+app:
+  debug: false
+  log_level: "INFO"
+  max_tokens: 500
+  temperature: 0.7
+
+# Feature Flags
+features:
+  autonomous_mode: true
+  doctor_validation: false
+  perplexity_check: true 

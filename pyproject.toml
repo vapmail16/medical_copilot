@@ -1,20 +1,27 @@
 [project]
-name = \"medical_copilot\"
-version = \"0.1.0\"
-description = \"Multi-agent AI Health Copilot using GenAI\"
-authors = [\"Vikkas Arun Pareek <vapmail16@gmail.com>\"]
-readme = \"README.md\"
-requires-python = \">=3.10\"
-package-mode = false
+name = "medical_copilot"
+version = "0.1.0"
+description = "Multi-agent AI Health Copilot using GenAI"
+authors = [
+    { name = "Vikkas Arun Pareek", email = "vapmail16@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
 dependencies = [
-    \"openai\",
-    \"langchain\",
-    \"langgraph\",
-    \"neo4j\",
-    \"python-dotenv\",
-    \"streamlit\",
-    \"requests\"
+    "openai",
+    "langchain",
+    "langgraph",
+    "neo4j",
+    "python-dotenv",
+    "streamlit",
+    "requests",
+    "openai-whisper",
+    "deepgram-sdk",
+    "Pillow",
+    "fastapi",
+    "uvicorn",
+    "python-multipart"
 ]
 
 [tool.setuptools]
-package-dir = {\"\" = \"src\"}
+package-dir = {"" = "src"}

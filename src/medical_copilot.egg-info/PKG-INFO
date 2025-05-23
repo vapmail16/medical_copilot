@@ -1,3 +1,24 @@
+Metadata-Version: 2.4
+Name: medical_copilot
+Version: 0.1.0
+Summary: Multi-agent AI Health Copilot using GenAI
+Author-email: Vikkas Arun Pareek <vapmail16@gmail.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: openai
+Requires-Dist: langchain
+Requires-Dist: langgraph
+Requires-Dist: neo4j
+Requires-Dist: python-dotenv
+Requires-Dist: streamlit
+Requires-Dist: requests
+Requires-Dist: openai-whisper
+Requires-Dist: deepgram-sdk
+Requires-Dist: Pillow
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: python-multipart
+
 # Medical Copilot
 
 A multi-agent AI health copilot using GenAI for medical diagnosis and assistance.
